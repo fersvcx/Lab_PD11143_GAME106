@@ -13,6 +13,7 @@ namespace ServerGame106.Data
         public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<LevelResult> LevelResults { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
